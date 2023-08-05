@@ -1,0 +1,16 @@
+.sticky {
+	position: sticky;
+	height: 60px;
+	width: 100%;
+	background-color: blue;
+	top: 40px;
+}
+.box {
+	height: 1000px;
+}
+.box2 {background-color: yellow;
+	margin: 100px;
+}
+h1 {
+	height: 200px;
+}

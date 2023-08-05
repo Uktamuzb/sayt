@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+}
+.menu {
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/9945fa1831185f31a94ce5d7/ghgh.jpg);
+    height: 715px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.d1{
+    float: left;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7d06d3e20ff455bdb571db8e/ssas.jpg);
+    height: 715px;
+    width: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: animatsiya1;
+    animation-duration: 1.7s;
+}
+.d2{
+    width: 20%;
+    height: 429.4px;
+    float: right;
+    margin-right: 29%;
+    margin-top: 3%;
+    animation-name: animatsiya2;
+    animation-duration: 1.7s;
+}
+.we{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 48px;
+    width: 413px;
+    color: white;
+}
+.fre {
+    color: white;
+    opacity: .9;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+a{
+    color: white;
+    text-decoration: underline white ;
+}
+.btn{
+    padding: 24px 65px;
+    border-color: white;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-radius: 17px;
+    color: white;
+    background-color: #f7bc38;
+    font-size: 17px;
+}
+@keyframes animatsiya1 {
+    0%{
+        margin-left: -150px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+@keyframes animatsiya2 {
+    0%{
+        margin-right: 0px;
+        height: 200px;
+    }
+    100%{
+        margin-right: 29%;
+        height: 429.4px;
+    }
+}
+@keyframes animatsiya3 {
+    0%{
+        background-color: #f7bc38;
+        color: white;
+    }
+    100%{
+        background-color: white;
+        color: black   ;
+    }
+}
+.btn:hover{
+    animation-name: animatsiya3;
+    animation-duration: 1s;
+}
+@media only screen and(max-width:1047){
+    .d1 {
+        height: 396px;
+        float: left;
+        background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7d06d3e20ff455bdb571db8e/ssas.jpg);
+        width: 45%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        animation-name: animatsiya1;
+        animation-duration: 1.7s;
+    }
+}

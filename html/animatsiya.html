@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes anamtion1 {
+                0%{
+                    
+                    background-color: brown;
+                }
+                50%{
+                    margin-left: 700px;
+                    background-color: black;
+                }
+                 100% {
+                    margin-left: 0px;
+                    background-color: blue;
+             }
+             }
+            
+            div{
+                width: 300px;
+                height: 200px;
+                background-color: blue;
+                animation-name: anamtion1;  /* nomi */
+                animation-duration: 6s;     /* necha sekunt aylanishi */
+                /* animation-delay: 0s;     kutish vaqti */
+                /* animation-iteration-count: infinite; nechamarta takrorlanishi */
+                animation-timing-function: ease-in;    /*1.ease, 2.eae-in, 3.eas-in-out, 4.ease-our    1-sekin tez sekin. 2. sekin tez. */
+            }
+    </style>
+</head>
+<body>
+    <DIV>div</DIV>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.menu{
+    font-family: sans-serif;
+    position: relative;
+    margin: 0px;
+}
+.rasm{
+    background-image: url(uzim.jpg);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+}
+.malumot-p {
+    font-weight: 600;
+    font-size: 29px;
+    padding: 1% 2%;
+    border: none ;
+    color: white;
+}
+.qiziqish-p{
+    font-weight: 600;
+    font-size: 29px;
+    padding: 16% 2%;
+    color: white;
+}
+.maslaxat-p{
+    font-weight: 600;
+    font-size: 29px;
+    padding: 17% 2%;
+    color: white;
+}
+.malumot{
+    background-color: red;
+    width: 24%;
+    height: 218px;
+}
+.qiziqish{
+    background-color: yellow;
+    width: 24%;
+    height: 224px;
+    border: none ;
+}
+.maslaxat{
+    background-color: blue;
+    width: 24%;
+    height: 198px;
+    border: none ;
+}

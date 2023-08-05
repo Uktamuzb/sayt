@@ -1,0 +1,42 @@
+/*.block_box {
+	width: 800px;
+	padding: 50px;
+	background-color: red;
+}
+.relative_box {
+	width: 500px;
+	background-color: yellow;
+}*/
+/*.parent {
+	font-size: 30px;
+}
+.child {
+	font-size: 2em;
+}
+.box {
+	height: 70px;
+	width: 600px;
+	border: 1px solid red;
+	border-radius: 0.5em;
+	padding: 5em;
+	background-color: bisque;
+}*/
+.container {
+	font-size: 20px;
+	padding: 0.5em;
+	border: 1px solid red;
+}
+.container h2 {
+	font-size: 1.5em;
+	margin-bottom: 0.2em;
+}
+.container h6 {
+	font-size: 0.9em;
+	margin-top: 0.2em;
+}
+.container p {
+	font-size: 0.8em;
+}
+.container span {
+	font-size: 0.5em;
+}

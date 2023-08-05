@@ -1,0 +1,33 @@
+.y-q{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 0px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.box{
+    display: inline;
+}
+.width{
+    width: 31%;
+    display: inline-block;
+}
+.sarlavha{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+}
+.y-o{
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: .8;
+    width: 390px;
+    margin-left: 15%;
+}
+.menu{
+    height: 480px;
+}

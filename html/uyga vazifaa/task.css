@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+.box{
+    height: 400px;
+    width: 1519.2px;
+    margin-top: 0%;
+    background: rgba(27, 47, 69, 0.5)
+}
+
+.rasm{
+    background-image: url(https://bootstrapmade.com/demo/templates/Nova/assets/img/cta-bg.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(0.5);
+    position: fixed;
+    top: 0%;
+    z-index: -1;
+}
+.hechnma{
+    height: 320px; 
+    background-color: rgb(255, 255, 255);
+}
+.hech{
+    height: 313px;
+    background-color: rgb(255, 255, 255);
+}
+.rang{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 0px;
+    padding-top: 5%;
+}
+.rang2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding-top: 2%;
+    margin-left: 28%;width: 626px;
+}
+.btn{
+    margin: 4% 45%;
+    background-color: #2aa5df;
+    margin: 4% 42%;
+    padding: 17px 19px;
+    border-radius: 36px;
+    width: 204px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}

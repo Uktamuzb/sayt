@@ -1,0 +1,6 @@
+.box
+{
+	background-image: radial-gradient(circle at 100%, yellow 100px, red 10%, blue);
+	height: 500px;
+	width: 500px;
+}

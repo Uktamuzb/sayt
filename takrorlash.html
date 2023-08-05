@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.linear {
+/*			ketma ketlik  */
+			width: 200px;
+			height: 200px;
+			background-image: linear-gradient(black, yellow, blue, red); /* to left,to right...*/
+			display: inline-block;
+			background-position: left bottom;
+		}
+		.radial {
+/*			quyosh shaklida  */
+			width: 200px;
+			height: 200px;
+			background-image: radial-gradient( circle at 20% 30%, black, yellow, blue, red);
+			/* masalan: blue 20%, */
+			margin-top: 1%; }
+		.high {
+			background-image: url(./img/rasm.jpg);
+			height: 400px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: left center;
+			}
+		.blur {
+			background-image: url(./img/rasm.jpg);
+			height: 400px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: top center;
+			background-position: left center;
+			filter: blur(5px); /* Qoraytirish: grayscale(0.0), opacitiy(50%) */
+			}
+		.scrol {
+			width: 300px;
+			height: 100px;
+			float: right;
+			overflow: auto;
+			background-color: brown;
+			margin-top: -30%;
+		}
+	</style>
+</head>
+
+
+<body>
+<div class="linear"></div>
+<div class="radial"></div>
+<div class="high"></div>
+<div class="blur"></div>
+<div class="scrol">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusrcitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</body>
+</html>

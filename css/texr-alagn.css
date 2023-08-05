@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+	
+}
+.text {
+	margin-top: 50px;
+display: inline;*/
+	color: black;
+	border: solid; 
+	padding: 0px;
+}
+.text:hover{
+	background-color: blue;
+	
+}
+.text:active {
+	color: green;
+
+
+}
+a {
+	text-decoration: none;
+}
+.lore {
+	color: red;
+}
+button {
+	background-color: blue;
+	color: white;
+}

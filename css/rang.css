@@ -1,0 +1,8 @@
+body {border-radius: 5px}
+body{margin: 0; text-align: center;}
+h1{ color:red; }
+[go] { background-color: #555 width 100%}
+button { background-color: blue; 
+	color: white;}
+
+*{ font-size:50px }

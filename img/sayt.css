@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+}
+img{
+    width: 450px;
+    float: right;
+    margin-right: 1%;
+    margin-top: -31%;
+    display: inline-block;
+    position: relative;
+    animation-name: rasm;
+    animation-duration: 1.5s;
+}
+.cont{
+    margin-left: 11%;
+    font-size: 1.44rem;
+    width: 49%;
+    margin-top: 5%;
+    position: relative;
+    animation-name: bon;
+    animation-duration: 1.5s;
+    color: #930c0c;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+.rel{
+    position: relative;
+}
+.box{
+    height: 611px;
+     background-color: #fff1f1;
+}
+.ism{
+    margin-top: 5%;
+    animation-name: ism;
+    animation-duration: 1.5s;
+    color: #930c0c;
+}
+.btnne{
+    width: 153px;
+    border-radius: 18px;
+    margin-top: -8%;
+    margin-left: 16%;
+}
+.btnn{
+    width: 153px;
+    border-radius: 18px;
+    margin-top: -8%;
+    margin-left: 4%;
+    background-color:rgb(203, 40, 70);
+    
+}
+.btnn:hover{
+    background-color: rgb(228, 126, 0);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+@keyframes ism {
+    0%   { margin-left: -20%;} 
+    100% { margin-left: 0%;}
+  }
+
+  @keyframes bon {
+    0%   { margin-left: -20%;
+           margin-top: 16%;
+    } 
+    100% { margin-left: 11%;}
+  }
+  @keyframes rasm {
+    0%   {
+           margin-right: -27%;
+    } 
+    100% { margin-right: 1%;}
+  }
+  .rasmm{
+    border-radius: 225px;
+  }
