@@ -1,6 +1,7 @@
-git init
+
 git add .
-git commit -m "yourComment"
+git commit -m "commintar"
+git status- proekt bormi yoqmi
 git origin yourName
-git remote add origin https://github.com/yourRepository.name.git
-git puah origin -u yourName
+git remote add origin https: //github.com/yourRepository.name.git
+git push -u origin master 
