@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>index</title>
-	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+	<script src="../bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../css/botstrap.css">
+	<style>
+		.row> div{
+			border: 1px solid white;
+			padding: 2px;
+		}
+		.container-sm{
+			margin: 20% 10%;
+
+		}
+		.cont{
+			background-color: #f3f3f3;
+			width: 60%;
+			height: 200px;
+		}
+	</style>
 </head>
+
 <body>
-<div class="box1"></div>
-<div class="box2"></div>
-<div class="box3"></div>
+	<div class="container-sm">
+		<!-- <div class="row bg-danger text-center">
+			<div class="col-lg-2 col-md-4 col-sm-6">1</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">2</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">3</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">4</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">5</div>
+			<div class="col-lg-2 col-md-4 col-sm-6">6</div>
+		</div> -->
+
+		<form>
+			<div class="cont">
+			<div class="mb-4">
+				<label for="inp" class="form-label">emailingizni kiriting: </label>
+				<input type="email" id="inp" class="form-control-sm" placeholder="email">
+			</div>
+
+			<div class="mb-4">
+				<label for="inp2" class="form-label">parolingizni kiriting: </label>
+				<input type="password" id="inp2" class="form-control-sm" placeholder="password">
+			</div>
+</div>
+			<!-- <div class="mb-4">
+				
+				<label for="inp" class="form-control">emailingizni kiriting: </label>
+			</div> -->
+
+		</form>
+
+	</div>
 </body>
+
 </html>

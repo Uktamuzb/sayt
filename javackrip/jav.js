@@ -135,7 +135,7 @@
 
 // for (let i = s; i <= d; i++ ) {
 //     y=y+i
-    
+
 // }
 // console.log(y);
 
@@ -197,7 +197,7 @@
 //         a+=age;
 //         console.log(a);
 //     }
-    
+
 // }
 
 // function addItem() {
@@ -209,7 +209,14 @@
 //     input.value=""
 // }
 
-    function box() {
-        let n1=document.getElementById('n1').value
-        let n2=0kj
-    }
+// function getPost() {
+//     fetch("https://jsonpleceholder.tyicode.com/posts") 
+//     .then(Response => Response.json())
+//     .then(res => {
+//         return res; 
+//     })  .catch(err => {
+//         return [];
+//     });
+// }
+
+
