@@ -1,7 +1,22 @@
-
 git add .
 git commit -m "commintar"
 git status- proekt bormi yoqmi
 git origin yourName
 git remote add origin https: //github.com/yourRepository.name.git
 git push -u origin master 
+
+html gif: https://media.giphy.com/media/11bkg7uuZJRtza/giphy.gif
+
+remove
+
+commit 08dc9c1631ce5f8fed8088e4391a004e850bc7ba (HEAD -> master)
+Author: Uktamuzb <uktamuzoqov2@gmail.com>
+Date:   Mon Aug 7 21:22:48 2023 +0500
+
+    yangi fayl
+
+commit 6aa138f66b541a90200937b747c1f03bec8c887b (origin/Uktam, Uktam)
+Author: Uktamuzb <uktamuzoqov2@gmail.com>
+Date:   Sat Aug 5 12:25:33 2023 +0500
+
+    birinchi commnt

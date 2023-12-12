@@ -16,11 +16,19 @@
 
 // arr
 
-let nummer=[1,2,3,4,5]
-for (let i=0; i<nummer.length; i++) {
-    console.log(nummer[i]);
+// let nummer=[1,2,3,4,5]
+// for (let i=0; i<nummer.length; i++) {
+//     console.log(nummer[i]);
 
     // console.log(nummer.length);
     // console.log(nummer[4]);
     
-}
+// }
+// let number =2.2
+// console.log(number);
+
+// let Number =2.2
+// console.log(Number);
+
+let ism ="uktam"
+console.log(`salom ${ism} !`);

@@ -83,18 +83,18 @@
          
       // }
 
-      function processParagraph(input, paragraph) {
-            // Process the paragraph using the input
-            // For demonstration purposes, let's convert the paragraph to uppercase and add the input at the end
-            let processedParagraph = paragraph.toUpperCase() + " " + input;
+      // function processParagraph(input, paragraph) {
+      //       // Process the paragraph using the input
+      //       // For demonstration purposes, let's convert the paragraph to uppercase and add the input at the end
+      //       let processedParagraph = paragraph.toUpperCase() + " " + input;
             
-            // Return the processed paragraph
-            return processedParagraph;
-          }
+      //       // Return the processed paragraph
+      //       return processedParagraph;
+      //     }
           
-          // Test the function
-          let input = "Hello";
-          let paragraph = "This is a paragraph.";
+      //     // Test the function
+      //     let input = "Hello";
+      //     let paragraph = "This is a paragraph.";
           
-          let result = processParagraph(input, paragraph);
-          console.log(result);
+      //     let result = processParagraph(input, paragraph);
+      //     console.log(result);
